@@ -23,7 +23,7 @@ export default function Services() {
     ];
 
     return (
-        <section className="flex flex-col px-6 py-10 md:py-32 lg:py-40 bg-gray-light">
+        <section className="flex flex-col px-6 py-10 md:py-32 lg:py-40 text-very-dark-blue-purple bg-gray-light">
             <div className="max-w-6xl mx-auto ">
                 <h2 className="text-3xl md:text-7xl font-bold text-center mb-12">O que nós fazemos</h2>
                 <div className="grid gap-8 md:grid-cols-3">

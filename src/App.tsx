@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import OurWork from "./components/OurWork";
 import Services from "./components/Services";
 
 export default function App(){
@@ -9,6 +10,7 @@ export default function App(){
             <Header />
             <HeroSection />
             <Services />
+            <OurWork/>
         </main>
         </>
     )
