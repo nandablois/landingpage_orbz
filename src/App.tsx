@@ -1,3 +1,4 @@
+import CreativeTechnology from "./components/CreativeTechnology";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import OurWork from "./components/OurWork";
@@ -11,6 +12,7 @@ export default function App(){
             <HeroSection />
             <Services />
             <OurWork/>
+            <CreativeTechnology />
         </main>
         </>
     )
