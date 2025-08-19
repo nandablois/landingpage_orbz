@@ -14,7 +14,7 @@ const features = [
 
 export default function CreativeTechnology() {
   return (
-    <Section bg="bg-gray-light" overflow="overflow-x-hidden">
+    <Section id="nos" bg="bg-gray-light" overflow="overflow-x-hidden">
      <ContainerRow gap="gap-12 md:gap-[120px]">
 
         <div className="md:w-1/2 min-w-0 flex flex-col items-start gap-4 order-1 md:order-2">

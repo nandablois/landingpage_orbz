@@ -12,7 +12,7 @@ export default function ContactForm() {
   ];
 
   return (
-    <Section overflow="overflow-x-hidden">
+    <Section id="contato" overflow="overflow-x-hidden">
       <ContainerRow
         gap="gap-12 md:gap-[147px]"
         paddingLeft="pl-0 md:pl-[143px]"
