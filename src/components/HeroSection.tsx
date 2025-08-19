@@ -1,6 +1,8 @@
+import Section from "./ui/Section";
+
 export default function HeroSection() {
     return (
-        <section className="flex flex-col items-center justify-center text-center px-6 py-20 md:py-32 lg:py-40 bg-gradient-to-r from-very-dark-gray to-vivid-violet">
+       <Section center bg="bg-gradient-to-r from-very-dark-gray to-vivid-violet" paddingY="py-20 md:py-32 lg:py-40">
             <div className="max-w-4xl">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-white leading-snug md:leading-tight">
                     &lt;/Criamos juntos seu <br />
@@ -14,6 +16,6 @@ export default function HeroSection() {
                     para transformar suas ideias em sites incríveis!
                 </p>
             </div>
-        </section>
+        </Section>
     );
 }

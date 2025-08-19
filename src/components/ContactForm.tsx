@@ -1,5 +1,6 @@
 import { MoveRight } from "lucide-react";
 import { FaWhatsapp, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import Section from "./ui/Section";
 
 export default function ContactForm() {
   const socialIcons = [
@@ -10,7 +11,7 @@ export default function ContactForm() {
   ];
 
   return (
-    <section className="flex flex-col px-6 py-10 md:py-32 lg:py-40 text-very-dark-blue-purple overflow-x-hidden">
+    <Section overflow="overflow-x-hidden">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-12 md:gap-[147px] pl-0 md:pl-[143px] pr-0 md:pr-[184px]">
 
   
@@ -64,6 +65,6 @@ export default function ContactForm() {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
