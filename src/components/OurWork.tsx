@@ -43,12 +43,12 @@ export default function OurWork() {
                             onSwiper={(swiper: SwiperType | null) => (swiperRef.current = swiper)}
                         >
                             <SwiperSlide>
-                                <img src="src/assets/Rectangle-64.png" alt="Projeto 1"
+                                <img src={Img1} alt="Projeto 1"
                                     className="w-full h-[300px] object-cover rounded-lg shadow-lg"
                                 />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="src/assets/Rectangle-65.png" alt="Projeto 2"
+                                <img src={Img2} alt="Projeto 2"
                                     className="w-full h-[300px] object-cover rounded-lg shadow-lg"
                                 />
                             </SwiperSlide>
