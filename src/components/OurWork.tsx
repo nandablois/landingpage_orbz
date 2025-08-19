@@ -5,13 +5,14 @@ import "swiper/css";
 import { Swiper as SwiperType } from "swiper";
 import Pagination from "./ui/svg/pagination";
 import Section from "./ui/Section";
+import ContainerRow from "./ui/ContainerRow";
 
 export default function OurWork() {
     const swiperRef = useRef<SwiperType | null>(null);
 
     return (
         <Section paddingY="py-20 md:py-32 lg:py-40">
-            <div className="container mx-auto flex flex-col md:flex-row  justify-between px-4 md:px-0 gap-8">
+            <ContainerRow gap="gap-8">
 
                 <div className="md:w-1/2 md:pl-[71px] text-very-dark-blue-purple text-left">
                     <p className="md:text-2xl font-bold">CONHEÇA</p>
@@ -66,7 +67,7 @@ export default function OurWork() {
                         </span>
                     </button>
                 </div>
-            </div>
+            </ContainerRow>
         </Section>
     );
 }

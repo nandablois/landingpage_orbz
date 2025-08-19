@@ -3,6 +3,7 @@ import Brush from './ui/svg/brush'
 import Chess from './ui/svg/chess'
 import Atr from './ui/svg/atr'
 import Section from './ui/Section'
+import ContainerRow from './ui/ContainerRow'
 
 const features = [
   { icon: <Sdk />, title: "Projetos únicos" },
@@ -14,7 +15,7 @@ const features = [
 export default function CreativeTechnology() {
   return (
     <Section bg="bg-gray-light" overflow="overflow-x-hidden">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between px-4 md:px-0 gap-12 md:gap-[120px]">
+     <ContainerRow gap="gap-12 md:gap-[120px]">
 
         <div className="md:w-1/2 min-w-0 flex flex-col items-start gap-4 order-1 md:order-2">
           <h1 className="font-black text-[32px] md:text-[50px] leading-tight md:mr-0 lg:mr-[380px]">
@@ -34,7 +35,7 @@ export default function CreativeTechnology() {
           ))}
         </div>
 
-      </div>
+      </ContainerRow>
     </Section>
   )
 }
