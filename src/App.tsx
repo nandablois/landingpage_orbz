@@ -1,5 +1,6 @@
 import ContactForm from "./components/ContactForm";
 import CreativeTechnology from "./components/CreativeTechnology";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import OurWork from "./components/OurWork";
@@ -15,6 +16,7 @@ export default function App(){
             <OurWork/>
             <CreativeTechnology />
             <ContactForm />
+            <Footer />
         </main>
         </>
     )
