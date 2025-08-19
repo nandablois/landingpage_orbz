@@ -1,6 +1,7 @@
 import { MoveRight } from "lucide-react";
 import { FaWhatsapp, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import Section from "./ui/Section";
+import ContainerRow from "./ui/ContainerRow";
 
 export default function ContactForm() {
   const socialIcons = [
@@ -12,9 +13,12 @@ export default function ContactForm() {
 
   return (
     <Section overflow="overflow-x-hidden">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-12 md:gap-[147px] pl-0 md:pl-[143px] pr-0 md:pr-[184px]">
-
-  
+      <ContainerRow
+        gap="gap-12 md:gap-[147px]"
+        paddingLeft="pl-0 md:pl-[143px]"
+        paddingRight="pr-0 md:pr-[184px]"
+        alignItems="items-start"
+      >
         <div className="md:w-1/2 flex flex-col md:items-start  md:text-left gap-6">
           <h1 className="font-extrabold text-[32px] md:text-[84px] leading-tight">
             Entre em contato
@@ -64,7 +68,7 @@ export default function ContactForm() {
             </button>
           </div>
         </div>
-      </div>
+      </ContainerRow>
     </Section>
   );
 }
