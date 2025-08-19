@@ -3,14 +3,14 @@ import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Swiper as SwiperType } from "swiper";
-
 import Pagination from "./ui/svg/pagination";
+import Section from "./ui/Section";
 
 export default function OurWork() {
     const swiperRef = useRef<SwiperType | null>(null);
 
     return (
-        <section className="flex flex-col px-6 py-20 md:py-32 lg:py-40">
+        <Section paddingY="py-20 md:py-32 lg:py-40">
             <div className="container mx-auto flex flex-col md:flex-row  justify-between px-4 md:px-0 gap-8">
 
                 <div className="md:w-1/2 md:pl-[71px] text-very-dark-blue-purple text-left">
@@ -67,6 +67,6 @@ export default function OurWork() {
                     </button>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }

@@ -2,6 +2,7 @@ import Sdk from './ui/svg/sdk'
 import Brush from './ui/svg/brush'
 import Chess from './ui/svg/chess'
 import Atr from './ui/svg/atr'
+import Section from './ui/Section'
 
 const features = [
   { icon: <Sdk />, title: "Projetos únicos" },
@@ -12,7 +13,7 @@ const features = [
 
 export default function CreativeTechnology() {
   return (
-    <section className="flex flex-col px-6 py-10 md:py-32 lg:py-40 text-very-dark-blue-purple bg-gray-light overflow-x-hidden">
+    <Section bg="bg-gray-light" overflow="overflow-x-hidden">
       <div className="container mx-auto flex flex-col md:flex-row justify-between px-4 md:px-0 gap-12 md:gap-[120px]">
 
         <div className="md:w-1/2 min-w-0 flex flex-col items-start gap-4 order-1 md:order-2">
@@ -34,6 +35,6 @@ export default function CreativeTechnology() {
         </div>
 
       </div>
-    </section>
+    </Section>
   )
 }
