@@ -8,6 +8,7 @@ interface SectionProps {
   paddingY?: string;
   overflow?: string;
   className?: string;
+  id?:string;
 }
 
 const Section: React.FC<SectionProps> = ({
@@ -18,10 +19,11 @@ const Section: React.FC<SectionProps> = ({
   paddingY = 'py-10 md:py-32 lg:py-40',
   overflow = '',
   className = '',
+  id =''
 }) => {
   return (
     <section
-      className={`flex flex-col ${center ? 'items-center justify-center text-center' : ''} px-6 ${paddingY} ${textColor} ${bg} ${overflow} ${className}`}
+      id={id} className={`flex flex-col ${center ? 'items-center justify-center text-center' : ''} px-6 ${paddingY} ${textColor} ${bg} ${overflow} ${className}`}
     >
       {children}
     </section>

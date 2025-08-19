@@ -11,7 +11,7 @@ export default function OurWork() {
     const swiperRef = useRef<SwiperType | null>(null);
 
     return (
-        <Section paddingY="py-20 md:py-32 lg:py-40">
+        <Section id="portfolio" paddingY="py-20 md:py-32 lg:py-40">
             <ContainerRow gap="gap-8">
 
                 <div className="md:w-1/2 md:pl-[71px] text-very-dark-blue-purple text-left">
