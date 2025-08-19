@@ -6,6 +6,8 @@ import { Swiper as SwiperType } from "swiper";
 import Pagination from "./ui/svg/pagination";
 import Section from "./ui/Section";
 import ContainerRow from "./ui/ContainerRow";
+import Img1 from '../assets/Rectangle-64.png';
+import Img2 from '../assets/Rectangle-65.png';
 
 export default function OurWork() {
     const swiperRef = useRef<SwiperType | null>(null);
@@ -26,10 +28,10 @@ export default function OurWork() {
                 <div className="md:w-1/2 flex flex-col items-center gap-4">
 
                     <div className="hidden md:grid grid-cols-2 gap-4 justify-center">
-                        <img src="src/assets/Rectangle-64.png" alt="Projeto 1"
+                        <img src={Img1} alt="Projeto 1"
                             className="w-[440px] h-[375px] object-cover rounded-lg shadow-lg"
                         />
-                        <img src="src/assets/Rectangle-65.png" alt="Projeto 2"
+                        <img src={Img2} alt="Projeto 2"
                             className="w-[440px] h-[375px] object-cover rounded-lg shadow-lg"
                         />
                     </div>
