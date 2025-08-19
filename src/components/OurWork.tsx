@@ -55,7 +55,6 @@ export default function OurWork() {
 
                     <div className="mt-6">
                         <Pagination
-                            onPrev={() => swiperRef.current?.slidePrev()}
                             onNext={() => swiperRef.current?.slideNext()}
                         />
                     </div>
