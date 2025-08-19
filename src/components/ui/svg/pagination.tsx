@@ -1,9 +1,8 @@
 type PaginationProps = {
-    onPrev: () => void;
     onNext: () => void;
 }
 
-export default function Pagination({ onPrev, onNext }: PaginationProps) {
+export default function Pagination({  onNext }: PaginationProps) {
     return (
         <div className="flex items-center justify-center gap-4">
             <svg
